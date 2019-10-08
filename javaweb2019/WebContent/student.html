@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>学生注册</title>
+</head>
+<body>
+<form action="yjf" method="post">
+
+你的操作是<p>
+操作1：保存(id为随机五位数)  <input type="radio" name="option" value="1" checked>   <p>
+操作2：更新 <input type="radio" name="option" value="2"><p>
+操作3：删除<input type="radio" name="option" value="3"> <p>
+操作4：根据主键查找<input type="radio" name="option" value="4">  <p>
+操作5：查询所有记录 <input type="radio" name="option" value="5"><p>
+
+如操作是2，3，4 请输入id<input type="text" name="stuid"><p>
+	姓名：<input type="text" name="stuname"><p>
+	年龄：<input type="text" name="stuage"><p>
+	性别：
+<input type="radio" name="gender" value="1" checked>女  &nbsp;&nbsp;&nbsp;
+<input type="radio" name="gender" value="0">男 <p>
+爱好：<input name="hobbies" type="checkbox" value="yundong" />运动&nbsp;
+	<input name="hobbies" type="checkbox" value="movie" />看电影&nbsp;
+	<input name="hobbies" type="checkbox" value="travel" />旅游&nbsp;
+	<input name="hobbies" type="checkbox" value="meishi" />美食<p>
+学院：<select name = "school">
+		<option value="software">软件与微电子学院</option>
+		<option value="computer">计算机科学与技术学院</option>
+</select>
+<p>
+
+	<input type= "submit" value="提交"><p>
+</form>
+
+</body>
+</html>
